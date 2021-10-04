@@ -1,0 +1,4 @@
+.Faq {
+    display: flex; 
+    flex-direction: column; 
+}
