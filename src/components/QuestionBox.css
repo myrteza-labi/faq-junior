@@ -2,3 +2,14 @@
     display: flex; 
     flex-direction: column; 
 }
+.question {
+    font-size: 13px; 
+    font-weight: 400; 
+    color: #4B4C5F; 
+}
+
+.answer {
+    font-size: 12px; 
+    font-weight: 400; 
+    color: #787887; 
+}

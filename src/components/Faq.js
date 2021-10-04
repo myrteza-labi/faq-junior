@@ -4,7 +4,7 @@ import './Faq.css';
 function Faq(props) {
     return(
         <section className="Faq" >
-            <h2> FAQ </h2>
+            <h2 className="faqTitle">FAQ</h2>
             {props.children}
         </section>
     )
