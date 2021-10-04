@@ -1,12 +1,25 @@
 .QuestionBox {
     display: flex; 
     flex-direction: column; 
+    position: relative; 
+    padding-bottom: 15px; 
+    border-bottom: 1px solid #E8E8EA; 
+}
+.QuestionBox:not(first-child){
+    padding-top: 15px; 
 }
 .question {
     font-size: 13px; 
     font-weight: 400; 
     color: #4B4C5F; 
 }
+.question:after {
+    content: url('../images/icon-arrow-down.svg'); 
+    align-self: flex-end; 
+    position: absolute; 
+    right: 0; 
+}
+
 
 .answer {
     font-size: 12px; 
