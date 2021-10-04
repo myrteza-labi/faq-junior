@@ -4,7 +4,8 @@ import './QuestionBox.css';
 function QuestionBox(props) {
     return(
         <div className="QuestionBox" >
-            {props.children}
+            <p className="quesion" >{props.quesion}</p>
+            <p className="answer">{props.answer}</p>
         </div>
     )
 }
