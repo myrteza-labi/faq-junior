@@ -28,7 +28,7 @@
     color: #787887; 
     display: none; 
 }
-.active p{
+.active .answer{
     display: block; 
 }
 .hidden {
