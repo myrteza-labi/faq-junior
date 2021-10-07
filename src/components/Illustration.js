@@ -7,6 +7,7 @@ function Illustration(props) {
         <div className="Illustration" >
             <div className="mainImage" ></div>
             <div className="shadow" ></div>
+            <div className="box" ></div>
 
         </div>
     )
