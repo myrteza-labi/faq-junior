@@ -44,6 +44,13 @@
   transform: rotate(180deg);
   display: inline-block;
 }
-.hidden {
-    display: none; 
+
+
+
+
+@media screen and (min-width: 1440px) {
+    .QuestionBox:not(.active):hover .question {
+        color: #F47B56; 
+        cursor: pointer; 
+    }
 }
