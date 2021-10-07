@@ -3,6 +3,7 @@ import FaqContainer from './components/FaqContainer';
 import Illustration from './components/Illustration';
 import Faq from './components/Faq';
 import QuestionBox from './components/QuestionBox';
+import React from 'react';
 
 let faqQuestion = [
   "How many team members can I invite?",
@@ -21,25 +22,39 @@ let faqAnswer = [
 ]; 
 
 
-function App() {
-  return (
-    <div className="App">
+class App extends React.Component {
+  constructor(props){
+    super(props); 
+    this.state = {
 
-      <FaqContainer>
+    }
+  }
 
-        <Illustration/>
 
-        <Faq>
-          <QuestionBox question={faqQuestion[0]} answer={faqAnswer[0]}/>
-          <QuestionBox question={faqQuestion[1]} answer={faqAnswer[1]}/>
-          <QuestionBox question={faqQuestion[2]} answer={faqAnswer[2]}/>
-          <QuestionBox question={faqQuestion[3]} answer={faqAnswer[3]}/>
-          <QuestionBox question={faqQuestion[4]} answer={faqAnswer[4]}/>
-        </Faq>
 
-      </FaqContainer>
-    </div>
-  );
+  render(){
+  
+
+    return (
+      <div className="App">
+  
+        <FaqContainer>
+  
+          <Illustration/>
+  
+          <Faq>
+            <QuestionBox answerClassName={"answer active"} question={faqQuestion[0]} answer={faqAnswer[0]}/>
+            <QuestionBox answerClassName={"answer"} question={faqQuestion[1]} answer={faqAnswer[1]}/>
+            <QuestionBox answerClassName={"answer"} question={faqQuestion[2]} answer={faqAnswer[2]}/>
+            <QuestionBox answerClassName={"answer"} question={faqQuestion[3]} answer={faqAnswer[3]}/>
+            <QuestionBox answerClassName={"answer"} question={faqQuestion[4]} answer={faqAnswer[4]}/>
+          </Faq>
+  
+        </FaqContainer>
+      </div>
+    );
+  }
+  
 }
 
 export default App;
