@@ -1,14 +1,37 @@
 .Illustration {
     width: 235px; 
     height: 180px; 
-    margin-top: -132px; 
+    margin-top: -125px; 
     margin-bottom: 55px; 
 }
-.img1 {
-    width: 100%; 
-    height: 100%; 
+
+
+
+.mainImage {
+    background-size: auto auto; 
+    background-position: top right; 
+    background-repeat: no-repeat; 
+    width: 238px; 
+    height: 190px; 
+    background-image: url("../images/illustration-woman-online-mobile.svg");
 }
 
-.img2 {
+.shadow {
     margin-top: -75px; 
+    background-image: url("../images/../images/bg-pattern-mobile.svg"); 
+}
+
+@media screen and (min-width: 1440px) {
+    .Illustration {
+        width: 470px; 
+        height: 360px; 
+        margin: 0; 
+        margin-left: -100px; 
+    }
+    .shadow {
+    width: 965px; 
+    height: 500px; 
+    margin-left: -500px; 
+    margin-top: -190px; 
+    }
 }
