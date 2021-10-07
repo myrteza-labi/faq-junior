@@ -12,6 +12,7 @@
     font-size: 13px; 
     font-weight: 400; 
     color: #4B4C5F; 
+    margin-bottom : 10px; 
 }
 .question:after {
     content: url('../images/icon-arrow-down.svg'); 
@@ -25,4 +26,11 @@
     font-size: 12px; 
     font-weight: 400; 
     color: #787887; 
+    display: none; 
+}
+.active {
+    display: block; 
+}
+.hidden {
+    display: none; 
 }
