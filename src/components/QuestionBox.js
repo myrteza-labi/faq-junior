@@ -21,8 +21,6 @@ document.addEventListener("DOMContentLoaded", () =>{
 
 
 
-
-
 function QuestionBox(props) {
     return(
         <div onClick={props.handleClickHanswer} className="QuestionBox" >
