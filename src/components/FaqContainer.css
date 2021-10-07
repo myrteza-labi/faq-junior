@@ -11,10 +11,10 @@
 
 @media screen and (min-width: 1440px) {
     .FaqContainer {
-        position: relative; 
         width: 920px;
         height: 510px; 
         flex-direction: row; 
+        align-items: flex-end; 
         overflow: hidden; 
     }
 }

@@ -14,9 +14,12 @@
 @media screen and (min-width: 1440px) {
     .Faq {
         width: 350px; 
-        margin-left: 90px; 
+        margin-left: 80px; 
+        margin-bottom: 20px; 
     }
     .faqTitle{
         text-align: left; 
+        position: absolute; 
+        top: 60px; 
     }
 }
